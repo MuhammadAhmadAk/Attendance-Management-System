@@ -1,4 +1,3 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dropdown_button2/dropdown_button2.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -466,7 +465,7 @@ class _RecordClassState extends State<RecordClass> {
                 //     startDate != null &&
                 //     endDate != null &&
                 //     selectedStatus != null) {
-                context.
+
                 Get.to(FullRecord(
                   dapartment: selectedDepartment!,
                   semester: selectedSemester!,
